@@ -1,0 +1,1 @@
+smithing.remove(<item:hammerlib:gears/netherite>);

@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "omicron"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "bigreactors:basic_reactorfuelrod"
+	id: "087788990AE1A063"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 3.0d
+		y: -1.5d
+	}]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3EE16F0264052C50"
+				"74076796EE6A84BE"
+			]
+			description: ["Extreme Reactors is a continuation of the classic mod Big Reactors. Reactors and Turbines are multi-block structures that have the potential to generate large amounts of power. This book will guide you through the process."]
+			id: "56269978214E1D5A"
+			rewards: [
+				{
+					id: "404DD95341E8AE20"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1F8157BA424CB16F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FB142ED0532AD3D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Smelt coal to create graphite."]
+			id: "0632775165BACE5A"
+			rewards: [
+				{
+					id: "516792944CBDDE22"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "78D4A06C28A001CB"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "5C667B2E21875A1A"
+				item: "bigreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0632775165BACE5A"]
+			description: ["Used to power reactors. Uranium will also work."]
+			id: "74076796EE6A84BE"
+			rewards: [
+				{
+					id: "0379A19C0EFDECA4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2CD85CEFE2CB15F8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B527186D142AC1A"
+				item: "bigreactors:yellorium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56269978214E1D5A"]
+			description: ["The waste product from a reactor."]
+			id: "25C913FA324A3278"
+			rewards: [
+				{
+					id: "25EAC1D2C3A608CF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5E260506FA27B9CF"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EC5F12E2FA7FAC1"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "127B9FEC3E064001"
+				item: "bigreactors:cyanite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25C913FA324A3278"]
+			description: ["Cyanite and water in a reprocesser will create blutonium."]
+			id: "08A7FD61246B76D6"
+			rewards: [
+				{
+					id: "5ACA750D0CC8F876"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "340AA2BDD60490F4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FF84FCC167C1A3C"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08A7FD61246B76D6"]
+			description: ["Obtained by reprocessing bluetonium and cyanite"]
+			id: "12EDAA9CA224D529"
+			rewards: [
+				{
+					id: "137999BDDCF3FF3D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "694D37055DAB20C3"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2162A65FC44C3505"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5D1F4C77B0529504"
+				item: "bigreactors:ludicrite_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56269978214E1D5A"]
+			description: ["The intro-level reactor. See the book."]
+			id: "644D6BC9C97B7E0F"
+			rewards: [
+				{
+					id: "7F7EECCD0499CBA3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "164C471CEAEA4135"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CBD29F991DAD7F6"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "78DEDB8AE62484EB"
+					item: "bigreactors:basic_reactorcontroller"
+					type: "item"
+				}
+				{
+					id: "5F219D88798555A7"
+					item: "bigreactors:basic_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "2554FD8971C19651"
+					item: "bigreactors:basic_reactorglass"
+					type: "item"
+				}
+				{
+					id: "4015E38F49EB1AC6"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+				{
+					id: "31C1EB1F42720E7B"
+					item: "bigreactors:basic_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					id: "62A0FA57D0341CE6"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					type: "item"
+				}
+				{
+					id: "0528E3851B6C2908"
+					item: "bigreactors:basic_reactorchargingportfe"
+					type: "item"
+				}
+				{
+					id: "087C6FCDDB344B83"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "33747CF8DBEA718A"
+					item: "bigreactors:basic_reactorpowertapfe_passive"
+					type: "item"
+				}
+				{
+					id: "5346DE545DD4EECA"
+					item: "bigreactors:basic_reactorredstoneport"
+					type: "item"
+				}
+			]
+			title: "Basic Reactor"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56269978214E1D5A"]
+			description: ["A reactor is needed to create the materials needed to construct a turbine. See the book."]
+			id: "6FFF383B65563E08"
+			rewards: [
+				{
+					id: "599B7B69EBA65379"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "70B94D99C9B219F5"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07964B57A5223FD0"
+					table_id: 4932449421809663150L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0CE0540CEDE3B790"
+					item: "bigreactors:basic_turbinecontroller"
+					type: "item"
+				}
+				{
+					id: "19D88AC426832122"
+					item: "bigreactors:basic_turbinecasing"
+					type: "item"
+				}
+				{
+					id: "647095A9CF51A57B"
+					item: "bigreactors:basic_turbineglass"
+					type: "item"
+				}
+				{
+					id: "66EFF3B47C080D56"
+					item: "bigreactors:basic_turbinerotorbearing"
+					type: "item"
+				}
+				{
+					id: "62E1D196A8E02AA9"
+					item: "bigreactors:basic_turbinerotorshaft"
+					type: "item"
+				}
+				{
+					id: "54E1CB9122170BE1"
+					item: "bigreactors:basic_turbinerotorblade"
+					type: "item"
+				}
+				{
+					id: "57DCAAC4E9859903"
+					item: "bigreactors:basic_turbinepowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "4A97BBC612C37019"
+					item: "bigreactors:basic_turbinepowertapfe_passive"
+					type: "item"
+				}
+			]
+			title: "Basic Turbine"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["644D6BC9C97B7E0F"]
+			description: ["Larger, more efficient, more power! See the book."]
+			id: "75729BFC02172F7E"
+			rewards: [
+				{
+					id: "6147D7807EF66A07"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "03E2A7F61D1FB6CC"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CA739D56D2E4059"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2AE27C54273AFA77"
+					item: "bigreactors:reinforced_reactorcontroller"
+					type: "item"
+				}
+				{
+					id: "092B28635B32554E"
+					item: "bigreactors:reinforced_reactorcasing"
+					type: "item"
+				}
+				{
+					id: "0053DD6DF68A07D9"
+					item: "bigreactors:reinforced_reactorglass"
+					type: "item"
+				}
+				{
+					id: "04D05D8EF5327A34"
+					item: "bigreactors:reinforced_reactorfuelrod"
+					type: "item"
+				}
+				{
+					id: "2F78B8665DCF3E2A"
+					item: "bigreactors:reinforced_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					id: "50E273CC745FCCBA"
+					item: "bigreactors:reinforced_reactorsolidaccessport"
+					type: "item"
+				}
+				{
+					id: "34A23BF64EA9CED6"
+					item: "bigreactors:reinforced_reactorfluidaccessport"
+					type: "item"
+				}
+				{
+					id: "649B4BE622A022E4"
+					item: "bigreactors:reinforced_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "4C9E620139A8AF54"
+					item: "bigreactors:reinforced_reactorpowertapfe_passive"
+					type: "item"
+				}
+				{
+					id: "715AA496A0A03DE8"
+					item: "bigreactors:reinforced_reactorchargingportfe"
+					type: "item"
+				}
+				{
+					id: "6FB832147C2BD3D1"
+					item: "bigreactors:reinforced_reactorredstoneport"
+					type: "item"
+				}
+				{
+					id: "797ACC5E6077B01B"
+					item: "bigreactors:reinforced_reactorcomputerport"
+					type: "item"
+				}
+				{
+					id: "166265393515041C"
+					item: "bigreactors:reinforced_reactorfluidport_forge_active"
+					type: "item"
+				}
+				{
+					id: "3AD9828714C3EC16"
+					item: "bigreactors:reinforced_reactorfluidport_forge_passive"
+					type: "item"
+				}
+				{
+					id: "43DE2294F825340F"
+					item: "bigreactors:reinforced_reactorfluidport_mekanism_passive"
+					type: "item"
+				}
+			]
+			title: "Reinforced Reactor"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FFF383B65563E08"]
+			description: ["Larger, more efficient, more power! See the book."]
+			id: "0BFDD76B51FA0EA7"
+			rewards: [
+				{
+					id: "59370AD9522EFFCD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7E3CBADDD420F00D"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365AA930928A7100"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "4E1433C3F711BA27"
+					item: "bigreactors:reinforced_turbinecontroller"
+					type: "item"
+				}
+				{
+					id: "0BD4874C3509B836"
+					item: "bigreactors:reinforced_turbinecasing"
+					type: "item"
+				}
+				{
+					id: "3755B45356965ABA"
+					item: "bigreactors:reinforced_turbineglass"
+					type: "item"
+				}
+				{
+					id: "7538AD1275F6566E"
+					item: "bigreactors:reinforced_turbinerotorbearing"
+					type: "item"
+				}
+				{
+					id: "03D2BFB88035EE35"
+					item: "bigreactors:reinforced_turbinerotorshaft"
+					type: "item"
+				}
+				{
+					id: "27362382CB78646D"
+					item: "bigreactors:reinforced_turbinerotorblade"
+					type: "item"
+				}
+				{
+					id: "2E382A832983ABDD"
+					item: "bigreactors:reinforced_turbinepowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "7E2244F01D14F650"
+					item: "bigreactors:reinforced_turbinepowertapfe_passive"
+					type: "item"
+				}
+				{
+					id: "281CB64B0E207A9E"
+					item: "bigreactors:reinforced_turbinechargingportfe"
+					type: "item"
+				}
+				{
+					id: "139E411897F52B5F"
+					item: "bigreactors:reinforced_turbineredstoneport"
+					type: "item"
+				}
+				{
+					id: "1D83808D58ADCCB6"
+					item: "bigreactors:reinforced_turbinecomputerport"
+					type: "item"
+				}
+				{
+					id: "5DD8CD99488804F2"
+					item: "bigreactors:reinforced_turbinefluidport_forge_active"
+					type: "item"
+				}
+				{
+					id: "5686FCB58FFCF5DC"
+					item: "bigreactors:reinforced_turbinefluidport_forge_passive"
+					type: "item"
+				}
+			]
+			title: "Reinforced Turbine"
+			x: -4.0d
+			y: 0.5d
+		}
+	]
+	title: "Omicron"
+}

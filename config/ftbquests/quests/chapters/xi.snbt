@@ -1,0 +1,1050 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "xi"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1
+		id: "betterfurnacesreforged:extreme_forge"
+		tag: { }
+	}
+	id: "6D798894A0CFC789"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 0.0d
+		y: 4.0d
+	}]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Better, faster furnaces! Upgrades to iron"]
+			id: "3E9ACFA8AF8D7DA5"
+			rewards: [
+				{
+					id: "57A7E875F0D952BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0FEB53687882769F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C31265E92F11708"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "5387FE1390093D91"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:copper_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E9ACFA8AF8D7DA5"]
+			description: ["Better, faster furnaces! Upgrades to gold"]
+			id: "674BCF75C9639981"
+			rewards: [
+				{
+					id: "60B223263445F476"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4E9BC516BE609455"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AC77F477FA5EC80"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:iron_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["674BCF75C9639981"]
+			description: ["Better, faster furnaces! Upgrades to diamond"]
+			id: "28F3AB28A0160B7F"
+			rewards: [
+				{
+					id: "4C2993888B9732E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4662153BED9DB439"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A6A8CCBC426BD25"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "20D44CB5D43B8CDA"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:gold_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28F3AB28A0160B7F"]
+			description: ["Better, faster furnaces! Upgrades to netherhot"]
+			id: "097C1F33625F658D"
+			rewards: [
+				{
+					id: "775AB514CDAAF040"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4154EB6C6DEE87C7"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52BCCD29D9460E93"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:diamond_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["097C1F33625F658D"]
+			description: ["Better, faster furnaces! Upgrades to extreme"]
+			id: "1E19F85B406BFC9D"
+			rewards: [
+				{
+					id: "7759E56F953D82A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "117B2AFA98E7E1D2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B407133513CD1A8"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:netherhot_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E19F85B406BFC9D"]
+			description: ["Better, faster furnaces! Upgrades to ultimate"]
+			id: "7AC2F14B5B3E0EBF"
+			rewards: [
+				{
+					id: "2BA8FC0BC1E8F295"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "712E09B140A31A70"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "253675FAD2AF5E3B"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "56DE62C3A0953364"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:extreme_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7AC2F14B5B3E0EBF"]
+			description: ["Better, faster furnaces! Max tier furnace"]
+			id: "0B2BCEBBE9C3FC40"
+			rewards: [
+				{
+					id: "46ED68E1B62CD14F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2DE3DBD5C2EC15F9"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F4BCEE0E338D8D1"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "040E56BB83EC45DF"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:ultimate_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3E9ACFA8AF8D7DA5"]
+			description: ["Forges are an upgraded version of furnaces"]
+			id: "01CCC0C8CD852680"
+			rewards: [
+				{
+					id: "04C39192925EFA00"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "332B2F112140256B"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C9451BD3B4D060C"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "54D335CD0FD99B39"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:copper_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01CCC0C8CD852680"]
+			description: ["Forges are an upgraded version of furnaces"]
+			id: "23E8945836D53D6E"
+			rewards: [
+				{
+					id: "25F6F57FF40082B9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "16B7EDCD8C927147"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79A2BEE9A5932D9E"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:iron_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23E8945836D53D6E"]
+			description: ["Forges are an upgraded version of furnaces"]
+			id: "33477B5891C0B36B"
+			rewards: [
+				{
+					id: "09142A782BE65423"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "533D16A1FA56B859"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28F1DB53E7E32802"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "55C6A60A8A065F2E"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:gold_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33477B5891C0B36B"]
+			description: ["Forges are an upgraded version of furnaces"]
+			id: "6E7CA77A0A77CF2B"
+			rewards: [
+				{
+					id: "29F7C09E7E064E91"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "15AC98CEB3ECFEA4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59C334E4D21D9465"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:diamond_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E7CA77A0A77CF2B"]
+			description: ["Forges are an upgraded version of furnaces"]
+			id: "763C41E67AABF25F"
+			rewards: [
+				{
+					id: "32197C6ECEF6E7C5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4714F5FAFBA86F84"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A4B9CDEB516A562"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:netherhot_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["763C41E67AABF25F"]
+			description: ["Forges are an upgraded version of furnaces"]
+			id: "3F309FB5E1672716"
+			rewards: [
+				{
+					id: "52592AC11E72AB53"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "680B1388BC83ADE9"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5881A3EED7BFD596"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "26B135396ECE7DF7"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:extreme_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F309FB5E1672716"]
+			description: ["Forges are an upgraded version of furnaces"]
+			id: "2F89C9A81F049F60"
+			rewards: [
+				{
+					id: "455A2938E33A3C5F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6E12353A63320EB0"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "142965C3481AF8F8"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3ACC0896E9F3A495"
+				item: {
+					Count: 1
+					id: "betterfurnacesreforged:ultimate_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5705A80B7A875A15"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "1293A7D5A06C73C7"
+			rewards: [
+				{
+					id: "5A14BE2D5E0DA326"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5EAEEF89C42C9AB6"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D54C7055540BF64"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3C6F3FF04C0CA0F0"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4AD415D51F455691"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "5705A80B7A875A15"
+			rewards: [
+				{
+					id: "5C57C643EAEC72C1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5803F819DE83B955"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F46C0C5A2C7EC4F"
+				item: {
+					Count: 1
+					id: "mekanismtools:osmium_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68C295E0107861DA"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "4AD415D51F455691"
+			rewards: [
+				{
+					id: "0F654EAE0589886E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "057D1116ED4A42BA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "231F5062A170B091"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5741E9076D523194"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_glowstone_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55A1A678A5144AD1"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "68C295E0107861DA"
+			rewards: [
+				{
+					id: "6D9EAE4A7743FAB3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0603427A92A6BCB2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "275848F28FF19545"
+				item: {
+					Count: 1
+					id: "mekanismtools:steel_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CEFCBB2DA94997B"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "55A1A678A5144AD1"
+			rewards: [
+				{
+					id: "3AF784ECAF834BDF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7A6BE1A9C17F696F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B76351C7CB4A329"
+				item: {
+					Count: 1
+					id: "mekanismtools:bronze_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D8D05F2066559D6"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "5CEFCBB2DA94997B"
+			rewards: [
+				{
+					id: "19709EE7730AE2EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0B2BFA78C5E9565C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F897F6FA3671C90"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3E48EA1F3521A0B1"
+				item: {
+					Count: 1
+					id: "mekanismtools:lapis_lazuli_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "7D8D05F2066559D6"
+			rewards: [
+				{
+					id: "24C983B54E14C405"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "70D922C4DE3E9613"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01343D5794F21357"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "15F0BB586997E524"
+				item: {
+					Count: 1
+					id: "mekanismtools:wood_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D8D05F2066559D6"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "67E2304FB8A29A5F"
+			rewards: [
+				{
+					id: "5C501F32798B7DA8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7196B181D548D8B1"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30BFF2FE1F22B70D"
+				item: {
+					Count: 1
+					id: "mekanismtools:stone_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67E2304FB8A29A5F"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "4398B8242093BE3F"
+			rewards: [
+				{
+					id: "4DF7FD94573D77C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6DA92C278C05A8E8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C1DA0E2A432F73D"
+				item: {
+					Count: 1
+					id: "mekanismtools:iron_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4398B8242093BE3F"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "0FE4104B78C71CC0"
+			rewards: [
+				{
+					id: "7D3600C64C789BBD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "05718A1C8E6E98A3"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "425022C55375D43D"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0D5CB38226262A4E"
+				item: {
+					Count: 1
+					id: "mekanismtools:gold_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0FE4104B78C71CC0"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "7B95D92438371980"
+			rewards: [
+				{
+					id: "589E8F4B50F16338"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4C6F807BE15E91D9"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60C032B5F3B85B79"
+				item: {
+					Count: 1
+					id: "mekanismtools:diamond_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B95D92438371980"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "7D447FD94FEA3FC8"
+			rewards: [
+				{
+					id: "19E060ACD20D1F32"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "167023F998953FB3"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EC1C907D04807E1"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "778B0BCF2E9C13D6"
+				item: {
+					Count: 1
+					id: "mekanismtools:netherite_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7D8D05F2066559D6"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "78631C39A6804ECA"
+			rewards: [
+				{
+					id: "3E043FAA3757F6AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "05844EB754C7A59C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "041BF86B1BA6F560"
+					table_id: 4908174852979865794L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4AB325F5D1CE3AB5"
+				item: {
+					Count: 1
+					id: "mysticalagradditions:inferium_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78631C39A6804ECA"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "4026905FACEEB1F2"
+			rewards: [
+				{
+					id: "4D0F37DF324353EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "113D7221702D8168"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "676C51F3D00677FA"
+				item: {
+					Count: 1
+					id: "mysticalagradditions:prudentium_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4026905FACEEB1F2"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "59FF5F7CF04A2152"
+			rewards: [
+				{
+					id: "68D99C886E4C4627"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3B164BB9CB984335"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D002DBD6992E811"
+				item: {
+					Count: 1
+					id: "mysticalagradditions:tertium_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59FF5F7CF04A2152"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "1D6D696FBEE501E7"
+			rewards: [
+				{
+					id: "14C87BCB5C6D2D22"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2F0496C03292416B"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74B7F292A1F350C1"
+					table_id: 8237061732478284941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "76AE2A621A3BB350"
+				item: {
+					Count: 1
+					id: "mysticalagradditions:imperium_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1D6D696FBEE501E7"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "04E06C50ED42364D"
+			rewards: [
+				{
+					id: "0F401A8F1E8B67F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0AAEECFFDA5AA4A2"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44969E3EDD9232C0"
+				item: "mysticalagradditions:supremium_paxel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04E06C50ED42364D"]
+			description: ["A paxel is an all-in-one tool. Works great as a weapon too!"]
+			id: "234E84DB362CCB37"
+			rewards: [
+				{
+					id: "7479D579E23FCFD6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0EF2BAAA73127F52"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4864CF3A805770B0"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2BE7ADE54343441C"
+				item: "mysticalagradditions:awakened_supremium_paxel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+	]
+	title: "Xi"
+}

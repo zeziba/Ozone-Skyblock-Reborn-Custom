@@ -1,0 +1,3 @@
+craftingTable.addShapeless("basalz", <item:thermal:basalz_powder> *1, [<item:minecraft:blaze_powder>, <item:minecraft:basalt>, <item:minecraft:basalt>]);
+craftingTable.addShapeless("blitz", <item:thermal:blitz_powder> *1, [<item:minecraft:blaze_powder>, <item:minecraft:snow_block>, <item:minecraft:snow_block>]);
+craftingTable.addShapeless("blizz", <item:thermal:blizz_powder> *1, [<item:minecraft:blaze_powder>, <item:minecraft:blue_ice>, <item:minecraft:blue_ice>]);

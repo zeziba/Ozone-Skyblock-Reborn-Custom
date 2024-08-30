@@ -1,0 +1,643 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "minecraft:chest"
+	id: "51185FCF84A4C47A"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 4.5d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Bigger chests! Upgradable to iron "]
+			id: "755ABBE38C75AE31"
+			rewards: [
+				{
+					id: "6F0E21F5A6D23EA5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D6367820961CB2B"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+				{
+					id: "7794E6B2F4884FFD"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "225B65B14419526B"
+				item: "ironchests:copper_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["755ABBE38C75AE31"]
+			description: ["Bigger chests! Upgradable to gold"]
+			id: "561A5FF8F7E1F164"
+			rewards: [
+				{
+					id: "47320623A9925BCD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0900C2445DC6640C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68167C1DDA0B7C09"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["561A5FF8F7E1F164"]
+			description: ["Bigger chests! Upgradable to diamond"]
+			id: "41D57481AD08B1C4"
+			rewards: [
+				{
+					id: "19AA2E7B3708E7B1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "58FE88F31658417E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "540CC9826BBDC1C1"
+				item: "ironchests:gold_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41D57481AD08B1C4"]
+			description: ["Bigger chests! Upgradable to obsidian"]
+			id: "69021BE4507E3022"
+			rewards: [
+				{
+					id: "67DCEC63B9E20495"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "460E2B2BF111BA05"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+				{
+					id: "43A4C79B97B505FD"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "340BB01086D5A666"
+				item: "ironchests:diamond_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69021BE4507E3022"]
+			description: ["Bigger chests! Upgradable to netherite"]
+			id: "2297686A02AF6553"
+			rewards: [
+				{
+					id: "32A72844AD825C7D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7EF12C19B845A1A3"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78B336976BF3DB78"
+				item: "ironchests:obsidian_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["A good starting solution for your storage problems. Tom's Storage is also in this pack, which is great for the midgame while you are working on an Applied Energistics or Refined Storage system."]
+			id: "418CF7FDF846BE84"
+			rewards: [
+				{
+					id: "3CC7476274676ECE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "483A80FC5FE00F15"
+					table_id: 4908174852979865794L
+					type: "random"
+				}
+				{
+					id: "02C8AB15BB5A46BA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "1E52FC156D790257"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			id: "16B57C4BD4C33843"
+			rewards: [
+				{
+					id: "62C7AAC9C965D073"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "614EE40E8511800A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D0C4008E869910B"
+				item: "storagedrawers:oak_full_drawers_2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16B57C4BD4C33843"]
+			id: "6042D5F44B5F0A5F"
+			rewards: [
+				{
+					id: "579E556DF5D166B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "69629DA585FCE789"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7957685BD5ABAF61"
+				item: "storagedrawers:oak_full_drawers_4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6042D5F44B5F0A5F"]
+			id: "0D6E9FD75AE47D03"
+			rewards: [
+				{
+					id: "4816F95EFEEF475E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5A09E0CA0C75F9B2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3070B9FF9E199678"
+				item: "storagedrawers:oak_half_drawers_1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D6E9FD75AE47D03"]
+			id: "5EFC686F406A2689"
+			rewards: [
+				{
+					id: "327D1CE64AB5F306"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7BA0C00A77409870"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44DC959AEE6D33DD"
+				item: "storagedrawers:oak_half_drawers_2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EFC686F406A2689"]
+			id: "7C7DD6CC1A5E66F4"
+			rewards: [
+				{
+					id: "25200C5D84F172E4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B542875F98E8717"
+					table_id: 8237061732478284941L
+					type: "loot"
+				}
+				{
+					id: "0C03F50A26A73EBC"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BD9002D0C5738ED"
+				item: "storagedrawers:oak_half_drawers_4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			description: ["Lock a drawer to content type. Click on a controller to set all connected drawers"]
+			id: "2249AFBFF8152AC5"
+			rewards: [
+				{
+					id: "6EE80F0603A96638"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "29208EBF59D14090"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DE92D9F13C22DAC"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2249AFBFF8152AC5"]
+			description: ["Show a label on the number of items in a drawer. Click on a controller to set all connected drawers"]
+			id: "769DBFCAAF546990"
+			rewards: [
+				{
+					id: "39417D0C3F6A5D57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "52D340EE91F717B8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "677CCF4FB69E2DBF"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["769DBFCAAF546990"]
+			description: ["Click on a controller to set all connected drawers"]
+			id: "24226A5DB7C6CC00"
+			rewards: [
+				{
+					id: "2A4709FC5BCC100F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9130E096618841"
+					table_id: 4932449421809663150L
+					type: "random"
+				}
+				{
+					id: "4CEBBA2993DB8B26"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28F60FC1EE9B417E"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			description: ["Stores items in their compacted and uncompacted form. Example: blocks, ingots, nuggets"]
+			id: "59F498EBB5FE2C2C"
+			rewards: [
+				{
+					id: "52A445D3A35A084A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "31025179F8939DBA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33B8E6DCE9510232"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59F498EBB5FE2C2C"]
+			description: ["Attach to a bunch of drawers. Mass sort items, use cables, etc"]
+			id: "4A224F9E3C15B5C8"
+			rewards: [
+				{
+					id: "6FDCB3B402154AC0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5258A077D6A992CE"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BF417B9D136391C"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A224F9E3C15B5C8"]
+			description: ["Extend the capabilities of the drawer controller!"]
+			id: "3D181D1398577D0E"
+			rewards: [
+				{
+					id: "35A5E4612A14698E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0369D17202EF1BE1"
+					table_id: 7137779341485476375L
+					type: "random"
+				}
+				{
+					id: "76432480DD7A93C4"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A1D9422AF3BFC47"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["418CF7FDF846BE84"]
+			description: ["Drawer storage x2"]
+			id: "29AE56F399A8006A"
+			rewards: [
+				{
+					id: "693759D22DD8F6B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "15D6DF6A59154BB8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07FF554C6909B268"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29AE56F399A8006A"]
+			description: ["Drawer storage x4"]
+			id: "6C87B43D15407718"
+			rewards: [
+				{
+					id: "302AECA6BD767E32"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6E5D3247F88F861E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09526E4ED9F67397"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C87B43D15407718"]
+			description: ["Drawer storage x8"]
+			id: "502368BBB9DF42A3"
+			rewards: [
+				{
+					id: "6D55B3643FC9C4AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "41EC7B46D189A070"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0107258C3F590BBA"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["502368BBB9DF42A3"]
+			description: ["Drawer storage x16"]
+			id: "27D0E09429A5BC58"
+			rewards: [
+				{
+					id: "30D491C555E05645"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5FF075359AEFB287"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "610F6BB1EEAAAB6E"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27D0E09429A5BC58"]
+			description: ["Drawer storage x32"]
+			id: "51ADDE07480D68C7"
+			rewards: [
+				{
+					id: "6A6E4F790433BAED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "25A66485177F28A2"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C519D748008A80A"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51ADDE07480D68C7"]
+			description: ["Deletes excess items once drawer reaches full capacity"]
+			id: "5C7DC5405B9EAA96"
+			rewards: [
+				{
+					id: "26D8283937FC4347"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73870AD370D99F82"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+				{
+					id: "152EDF172D557375"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "095EB05D95403638"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2297686A02AF6553"]
+			description: ["Bigger chests! Max tier"]
+			id: "345C7F6955DCBF95"
+			rewards: [
+				{
+					id: "5BBBA8B066D46F8F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23D2E86000DEEDF8"
+					table_id: 6934286827609696671L
+					type: "loot"
+				}
+				{
+					id: "630DC90E77AFDC7F"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "323304FE54D2FC1F"
+				item: "ironchests:netherite_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	title: "Gamma"
+}

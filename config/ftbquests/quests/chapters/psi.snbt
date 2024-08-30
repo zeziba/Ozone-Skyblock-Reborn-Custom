@@ -1,0 +1,809 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "psi"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "5C8A54EFD943675A"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 5.0d
+		y: 1.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Botania will take you on a journey through the magic of nature. This book will have all the information you need to get you through this quest line. Can be upgraded to a better book later."]
+			id: "6EB5A813D4088C7E"
+			rewards: [
+				{
+					id: "0B833EA713F81D73"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "57863C5BB690FC21"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "3902D61A60D4A7C9"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EB5A813D4088C7E"]
+			id: "22AEDCCADAFFAC5A"
+			rewards: [
+				{
+					id: "5D620DF55B6389FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4BFDB1E1C3478C8D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F140A58CD1AA383"
+					table_id: 8237061732478284941L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "612FDD1372D3099D"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22AEDCCADAFFAC5A"]
+			id: "41275C2B37848720"
+			rewards: [
+				{
+					id: "0CFC2FB096CE4CD9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5A296C203F242653"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A4BD9C6DA95B453"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "55D12F9D45E02C8E"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41275C2B37848720"]
+			id: "3002A490F28BEF65"
+			rewards: [
+				{
+					id: "380E696D4EA4CAAE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "64C16D812BFB3309"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DA20622D6138769"
+					table_id: 8263517383619382820L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3AD151D309D6DD86"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3002A490F28BEF65"]
+			id: "79E30F3A54F84EA4"
+			rewards: [
+				{
+					id: "4985D74C4D23C661"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5FFB2CBBAA43BD56"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D3243924B5B7A25"
+					table_id: 1123139754206116106L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "57A2AD59CDB7ABBC"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6EB5A813D4088C7E"]
+			description: ["Used to make various Botania flowers"]
+			id: "238651C98852C456"
+			rewards: [
+				{
+					id: "3881D4B98DF00E17"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7A7A454271055301"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BE9B52DF574C41D"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65029D69C4D7C329"]
+			description: [""]
+			id: "45C50B63083377EB"
+			rewards: [
+				{
+					id: "760D9C1E54AB8240"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7288051EE75EFF26"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46BD81B3B790A2BA"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "57C2C982813B9DF9"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38B38839D9365730"]
+			id: "4A010F0546C95882"
+			rewards: [
+				{
+					id: "7A2A7EC9DA9CA52F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5A1B3AB76694E310"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08FCEB73787A7ACF"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5A3B02A43E02B992"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["238651C98852C456"]
+			description: ["Used to make Living Wood and Living Rock"]
+			id: "31A628554F318833"
+			rewards: [
+				{
+					id: "7D41A0419F059F89"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "22C779F315713786"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31580F01CF444C0D"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "375619EC15087695"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31A628554F318833"]
+			id: "65029D69C4D7C329"
+			rewards: [
+				{
+					id: "1D34F0B413E909A2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0A28FA63491B2950"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B4DFBAECB0F606E"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65029D69C4D7C329"]
+			id: "38B38839D9365730"
+			rewards: [
+				{
+					id: "5A0CE96F1B2CEFEB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "769682DEC5D3B21E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "332D25479325DE8B"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6EB5A813D4088C7E"]
+			id: "3E8681CB5EAE6368"
+			rewards: [
+				{
+					id: "5CFF457E49C0D4F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6AD7A4BE241F25A6"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "611AABD61FE67963"
+					table_id: 8237061732478284941L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0E0C24190EE3727F"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E8681CB5EAE6368"]
+			description: ["Used to power The Portal to Alfheim, a multiblock structure added by Botania. It allows the player to exchange certain blocks and items. Unlike most portals, the Portal to Alfheim cannot be travelled through; if the player were to stand in it, it would not teleport them anywhere. "]
+			id: "1F26D7D6336C6B0D"
+			rewards: [
+				{
+					id: "34641B429495CD97"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1B749A7F8BD2BD5E"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17888A265BC44B26"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6858DD5BCB60C1FB"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F26D7D6336C6B0D"]
+			description: ["To summon the Gaia Guardian, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead. "]
+			id: "2F5D8150C3A8C415"
+			rewards: [
+				{
+					id: "3C6372E6DE179EBF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "17B74E5EE7FB4124"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "263B0A5FF9332B9A"
+					table_id: 8263517383619382820L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0F42C4A45E72E2F1"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "0984717AC3E4C46A"
+			rewards: [
+				{
+					id: "270410880657A1E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5BF356F0766C5F93"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CA2D71574EC0A29"
+				item: "botania:white_petal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "658CF4963978B628"
+			rewards: [
+				{
+					id: "18F1160109EBB2A6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7552E589A62ABDD6"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32105305F89D9083"
+				item: "botania:orange_petal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "00F000B1AE6E31E9"
+			rewards: [
+				{
+					id: "3DE6230F70D219A7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "07B259C9157D2D05"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F33CE623F854902"
+				item: "botania:magenta_petal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "735C356FC487F1B9"
+			rewards: [
+				{
+					id: "767C638E601DEB2C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "336A00BCFFCAEF3F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD8BA2374AAD136"
+				item: "botania:light_blue_petal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "3ECBDF981EE1ADEC"
+			rewards: [
+				{
+					id: "0CEA13940F232CC1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7AA1367DE9DA144C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17CEC7D5319809D0"
+				item: "botania:yellow_petal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "5BF7D180B44F673D"
+			rewards: [
+				{
+					id: "3E188E58C2F85B19"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "16F15218C4BEDE6F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57F3E75378F1BE15"
+				item: "botania:lime_petal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "551314254FBE6758"
+			rewards: [
+				{
+					id: "18F59EDB8A04DEE6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "71808233EC47616A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2ACA663B9C407EC4"
+				item: "botania:pink_petal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "140BD22ACE0A9E31"
+			rewards: [
+				{
+					id: "78FBFFD75E9E6089"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1A7BDF2DDD916D3A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71A039186D78CA23"
+				item: "botania:gray_petal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "17E874348EBC65E9"
+			rewards: [
+				{
+					id: "0F5E395C67499825"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5952B7B532C38B45"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "178BDB78B336D357"
+				item: "botania:light_gray_petal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "7A4707F5D668F55F"
+			rewards: [
+				{
+					id: "45DE04791F883DBB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1C51B2FC1B0710D2"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E6B71A2A1E1150B"
+				item: "botania:cyan_petal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "62E43B019BE82738"
+			rewards: [
+				{
+					id: "017E6BD6BF218E12"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4AEF1D1500061030"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05B598D5A0835CD8"
+				item: "botania:purple_petal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "7CA5E6793BD892A5"
+			rewards: [
+				{
+					id: "4F00B2ABF553A625"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "38FED3B4D02B8A8F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50BD911445D628CC"
+				item: "botania:blue_petal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "140A6BB74911AF3C"
+			rewards: [
+				{
+					id: "2499D73F6CC12E06"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "050A9CF26CAB1EAE"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F2BE2C1C517AEEB"
+				item: "botania:brown_petal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "7845C0F597E6BC20"
+			rewards: [
+				{
+					id: "41DCF21C7B988264"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "06427DFEEEDF6137"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C04C3F5E6ED951F"
+				item: "botania:green_petal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "40D505F3A38214FC"
+			rewards: [
+				{
+					id: "7C7EFB510E6A5432"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6F67318A5A4E365C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25596EB25E2F6DF9"
+				item: "botania:red_petal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["254AD3E776A4A6C2"]
+			id: "3E2E52EF1565C6FE"
+			rewards: [
+				{
+					id: "683D537B25C3D99A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2428BEB4BDEEB5D7"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "633D209051675906"
+				item: "botania:black_petal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6EB5A813D4088C7E"]
+			description: ["Use on grass to make Mystical Flowers. These flowers come in 16 different colors. They can be crafted into Mystical Petals, which can be further crafted into dye, or into a wide variety of generating and functional flowers in the Petal Apothecary. "]
+			id: "254AD3E776A4A6C2"
+			rewards: [
+				{
+					id: "7CC61A3C8BEEFF94"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "740DA0B418B00744"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0120E58C8AE91E95"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "Theta"
+}

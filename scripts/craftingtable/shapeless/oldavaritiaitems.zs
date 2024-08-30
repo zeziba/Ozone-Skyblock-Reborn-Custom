@@ -1,0 +1,16 @@
+craftingTable.addShapeless("av-chest", <item:avaritia:infinity_chestplate> * 1, [<item:avaritia:infinity_armor_chestplate>]);
+craftingTable.addShapeless("av-leg", <item:avaritia:infinity_pants> * 1, [<item:avaritia:infinity_armor_leggings>]);
+craftingTable.addShapeless("av-boot", <item:avaritia:infinity_boots> * 1, [<item:avaritia:infinity_armor_boots>]);
+craftingTable.addShapeless("av-bow", <item:avaritia:infinity_bow> * 1, [<item:avaritia:longbowofthe_heavens>]);
+craftingTable.addShapeless("av-infinity-block", <item:avaritia:infinity> * 1, [<item:avaritia:infinity_block>]);
+craftingTable.addShapeless("av-neutron-block", <item:avaritia:neutron> * 1, [<item:avaritia:neutronium_block>]);
+craftingTable.addShapeless("av-sword", <item:avaritia:infinity_sword> * 1, [<item:avaritia:swordofthe_cosmos>]);
+craftingTable.addShapeless("av-pile", <item:avaritia:neutron_pile> * 1, [<item:avaritia:pileof_neutrons>]);
+craftingTable.addShapeless("av-nugget", <item:avaritia:neutron_nugget> * 1, [<item:avaritia:neutronium_nugget>]);
+craftingTable.addShapeless("av-ingot", <item:avaritia:neutron_ingot> * 1, [<item:avaritia:neutronium_ingot>]);
+craftingTable.addShapeless("av-shovel", <item:avaritia:infinity_shovel> * 1, [<item:avaritia:planet_eater>]);
+craftingTable.addShapeless("av-axe", <item:avaritia:infinity_axe> * 1, [<item:avaritia:natures_ruin>]);
+craftingTable.addShapeless("av-hoe", <item:avaritia:infinity_hoe> * 1, [<item:avaritia:hoeofthe_green_earth>]);
+craftingTable.addShapeless("av-pick", <item:avaritia:infinity_pickaxe> * 1, [<item:avaritia:world_breaker>]);
+craftingTable.addShapeless("av-skull", <item:avaritia:skull_fire_sword> * 1, [<item:avaritia:skullfire_sword>]);
+craftingTable.addShapeless("av-helm", <item:avaritia:infinity_helmet> * 1, [<item:avaritia:infinity_armor_helmet>]);

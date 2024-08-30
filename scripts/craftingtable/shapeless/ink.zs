@@ -1,0 +1,2 @@
+craftingTable.addShapeless("black_dye", <item:minecraft:black_dye> *1, [<tag:items:forge:dusts/coal>]);
+craftingTable.addShaped("ink_sac",<item:minecraft:ink_sac>, [[<item:minecraft:air>,<item:mysticalagriculture:prismarine_essence>,<item:minecraft:air>],[<item:mysticalagriculture:prismarine_essence>,<item:minecraft:black_dye>,<item:mysticalagriculture:prismarine_essence>],[<item:minecraft:air>,<item:mysticalagriculture:prismarine_essence>,<item:minecraft:air>]]);

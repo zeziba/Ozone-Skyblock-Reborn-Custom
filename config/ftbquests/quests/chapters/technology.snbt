@@ -1,0 +1,1034 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technology"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "enderio:octadic_capacitor"
+	id: "6E1EDCF498E4C8CF"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 4.5d
+		y: -2.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3EE16F0264052C50"]
+			description: ["Essential component for EnderIO machines."]
+			id: "304C3DA255E8BEA1"
+			rewards: [
+				{
+					id: "635CCDDE1CF7A0F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "528A24B39107FDC6"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+				{
+					id: "07A8F7924C92F628"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Must complete \"Getting Started\" to unlock"
+			tasks: [{
+				id: "16ADAC583BA130E7"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["304C3DA255E8BEA1"]
+			description: ["To obtain coal dust in the early game, equip flint in your off-hand and 3 or more coal pieces in your main hand. Shift right click obsidian. Profit!"]
+			id: "2AFC300B86665BAB"
+			rewards: [
+				{
+					id: "49255E7812F3BEBF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "777DDB03DCBC24C0"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B52470B4D7451BB"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2AFC300B86665BAB"]
+			description: ["Max tier Ender IO capacitor"]
+			id: "62DE39B1BEF752BA"
+			rewards: [
+				{
+					id: "3EDAB363972E66C2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BC72D6FF521038D"
+					table_id: 8263517383619382820L
+					type: "loot"
+				}
+				{
+					id: "3193A314B9EB0C50"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FA92E1B8ECF3E0B"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["304C3DA255E8BEA1"]
+			description: ["Store RF, like a battery"]
+			id: "6F25BC39A243FB15"
+			rewards: [
+				{
+					id: "0A61827D19C14378"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "097F141C664E2EA4"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+				{
+					id: "3BB15CF9242ABC35"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31CB2C4BBFE544BB"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F25BC39A243FB15"]
+			description: ["Store RF, like a battery"]
+			id: "6D75D785EB89AFAF"
+			rewards: [
+				{
+					id: "424B12412E594F85"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "30A10CBA71B6ECCF"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BD35FFE1EB2EA09"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D75D785EB89AFAF"]
+			description: ["Store RF, like a battery"]
+			id: "2B2FB3D50B29B04F"
+			rewards: [
+				{
+					id: "027E4F463C481E2E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E961C8CBC6101AA"
+					table_id: 6366679689089400919L
+					type: "loot"
+				}
+				{
+					id: "782386B5C2420453"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66EB333AA3FC0F65"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["304C3DA255E8BEA1"]
+			description: ["Power from the sun! Tier 1"]
+			id: "123F1D4B1509DA03"
+			rewards: [
+				{
+					id: "4DE8A6076E8D05A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "223C858A09A11903"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47EBFCF07EDB2096"
+				item: "enderio:energetic_photovoltaic_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["123F1D4B1509DA03"]
+			description: ["Power from the sun! Tier 2"]
+			id: "110127114AE2FDA9"
+			rewards: [
+				{
+					id: "400B93CE82538C74"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2E5359055A351F45"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52A5E23E2890E28C"
+				item: "enderio:pulsating_photovoltaic_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["110127114AE2FDA9"]
+			description: ["Power from the sun! Tier 3"]
+			id: "783FDD210C8E8C93"
+			rewards: [
+				{
+					id: "71AF0ECE78742DA2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22DD69410A30BD2E"
+					table_id: 455336730284347560L
+					type: "loot"
+				}
+				{
+					id: "0B41E3BF94A3D4D6"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "184A0CE90D419AD3"
+				item: "enderio:vibrant_photovoltaic_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41D4504AFE0D80F8"]
+			description: ["Use to have a chance of obtaining mob heads."]
+			id: "430434760D2EC53D"
+			rewards: [
+				{
+					id: "217E5BB008F2AA51"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C7810B1654F367A"
+					table_id: 8237061732478284941L
+					type: "loot"
+				}
+				{
+					id: "5B7F4BB328AD3C3A"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71072F62A208FBAC"
+				item: {
+					Count: 1
+					id: "enderio:dark_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BE482A7F8998527"]
+			description: ["Travel to a travel anchor without needing to stand on one"]
+			id: "3C94C3249C635B5B"
+			rewards: [
+				{
+					id: "00A197A00C29B8E4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4915812BA3B6CC11"
+					table_id: 6934286827609696671L
+					type: "loot"
+				}
+				{
+					id: "386D3283364777F0"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40228174839A99DF"
+				item: {
+					Count: 1
+					id: "enderio:staff_of_travelling"
+					tag: {
+						Energy: {
+							EnergyStored: 0
+							MaxEnergyStored: 100000
+							MaxEnergyUse: 100000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6BE482A7F8998527"]
+			description: ["Anti-gravity!"]
+			id: "3BAAF007B830AD10"
+			rewards: [
+				{
+					id: "09D3C6E6B05E4997"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7892C5268CD62677"
+					table_id: 6934286827609696671L
+					type: "loot"
+				}
+				{
+					id: "120200BA3840480D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "490DF2AAE5617FAF"
+				item: {
+					Count: 1
+					id: "enderio:staff_of_levity"
+					tag: {
+						Energy: {
+							EnergyStored: 0
+							MaxEnergyStored: 1000
+							MaxEnergyUse: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["62DE5FA1C1F76537"]
+			description: ["Take to the skies! Used to craft a wooden jetpack."]
+			id: "1467C86B0DB6BF13"
+			rewards: [
+				{
+					id: "01BF59424067D79F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FCF9A81EE7E2D17"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+				{
+					id: "066CFD088755B6A8"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Must complete \"Engineer's Workbench\" to unlock"
+			tasks: [{
+				id: "4A7477EA0263C8B9"
+				item: {
+					Count: 1
+					id: "ironjetpacks:capacitor"
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1467C86B0DB6BF13"]
+			description: ["Used to craft a copper jetpack."]
+			id: "0497D308100CEA7E"
+			rewards: [
+				{
+					id: "384C75F827409B49"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "353AD0C60A8978F0"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74A929374F5C5048"
+				item: {
+					Count: 1
+					id: "ironjetpacks:capacitor"
+					tag: {
+						Id: "ironjetpacks:copper"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0497D308100CEA7E"]
+			description: ["Used to craft an iron jetpack."]
+			id: "39822004CF85610A"
+			rewards: [
+				{
+					id: "2934CECCBFB5D5AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "25E077D2A9A12898"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12E5A751120071BD"
+				item: {
+					Count: 1
+					id: "ironjetpacks:capacitor"
+					tag: {
+						Id: "ironjetpacks:iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39822004CF85610A"]
+			description: ["Used to craft a gold jetpack."]
+			id: "602AC0D72EC760E3"
+			rewards: [
+				{
+					id: "7CE28B53C05F154E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42CD5307084561B1"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+				{
+					id: "667C71914E9B2647"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21F01410C46FDF2A"
+				item: {
+					Count: 1
+					id: "ironjetpacks:capacitor"
+					tag: {
+						Id: "ironjetpacks:gold"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["602AC0D72EC760E3"]
+			description: ["Used to craft a diamond jetpack."]
+			id: "16FC2C94F09D2335"
+			rewards: [
+				{
+					id: "047A71AE5C585B98"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "050E3050F721327E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "057B11A97DACFD74"
+				item: {
+					Count: 1
+					id: "ironjetpacks:capacitor"
+					tag: {
+						Id: "ironjetpacks:diamond"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["16FC2C94F09D2335"]
+			description: ["Used to craft an emerald jetpack."]
+			id: "4D1D60A606D7525A"
+			rewards: [
+				{
+					id: "66AF0616F342E166"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "300933F593347660"
+					table_id: 3056162591087503147L
+					type: "loot"
+				}
+				{
+					id: "289003CF88D9BE02"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35212469A6339393"
+				item: {
+					Count: 1
+					id: "ironjetpacks:capacitor"
+					tag: {
+						Id: "ironjetpacks:emerald"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["304C3DA255E8BEA1"]
+			description: ["To obtain coal dust in the early game, equip flint in your off-hand and 3 or more coal pieces in your main hand. Shift right click obsidian. Profit!"]
+			id: "3BC52195653A9011"
+			rewards: [
+				{
+					id: "78D9F529FC06AFC6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "660C12B98D532151"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "668FAA053898A61C"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BC52195653A9011"]
+			description: ["Like a furnace, but better. Can smelt ores and also create alloys"]
+			id: "41D4504AFE0D80F8"
+			rewards: [
+				{
+					id: "633D5961497D72A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "25265D23F6177E7F"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "010B90FBE9D3B31E"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41D4504AFE0D80F8"]
+			description: ["Used to grind down resources"]
+			id: "192279D2382F35DD"
+			rewards: [
+				{
+					id: "6825D5FA15551CE1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D05265411C17980"
+					table_id: 8237061732478284941L
+					type: "loot"
+				}
+				{
+					id: "0F50AC0DBF0AFA57"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DB5212E527A5D42"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["192279D2382F35DD"]
+			id: "236AB7E3C6AE1F38"
+			rewards: [
+				{
+					id: "6D37778A48CB7141"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "35A57AA6342C38C0"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70E6196AC07CC053"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["236AB7E3C6AE1F38"]
+			description: ["Bind mob souls to objects! Completely normal, nothing to be worried about"]
+			id: "6BE482A7F8998527"
+			rewards: [
+				{
+					id: "1D6C08CA3DB5837A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "740E8851DF582BEF"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3446DA2F15F7C317"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["236AB7E3C6AE1F38"]
+			description: ["Spawn mobs with the power of RF!"]
+			id: "321D17BD61F59DE0"
+			rewards: [
+				{
+					id: "0AE0FACB706B7E62"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55728936C7BD445F"
+					table_id: 455336730284347560L
+					type: "loot"
+				}
+				{
+					id: "09DDC11E848CCF05"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16B9AE03079CC1E6"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41D4504AFE0D80F8"]
+			description: ["Store xp levels! Can also be used to put XP into Ender IO machines for crafting purposes"]
+			id: "3C5C46275635B639"
+			rewards: [
+				{
+					id: "083A36625E657733"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "565B0CCA70A66663"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A9F516055DF990E"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C5C46275635B639"]
+			description: ["Teleport short distances between 2 or more travel anchors"]
+			id: "3D039057F963BF8A"
+			rewards: [
+				{
+					id: "22F408F3EC17A96E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A64F54BFE23A7DA"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+				{
+					id: "49B4403CBF59A0CA"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FB1B4B94034A95F"
+				item: "enderio:travel_anchor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BC52195653A9011"]
+			description: ["Transfer items, fluids, and energy between two or more tesseracts. See also: Mekanism Quantum Entangloporter"]
+			id: "0DA6D312F162E68A"
+			rewards: [
+				{
+					id: "098BBCF97BD47A19"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "33EF33B53B4C2977"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A385EA5F07523B9"
+				item: "tesseract:tesseract"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["304C3DA255E8BEA1"]
+			description: [
+				"These pipes can be upgraded (all the way to infinity!)."
+				"The universal pipe can be used to craft xnet cables and connectors, as well as LaserIO components (see JEI)."
+			]
+			id: "4BB8FBE275D2AE7F"
+			rewards: [
+				{
+					id: "7662A9BEFEEC7738"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5C542E9AFE3C2F9F"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ED2E77128207AB3"
+					table_id: 8263517383619382820L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "59398CF3179B09C0"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "48D58C4A9DE05A81"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1FF63C7FC13D0A73"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "3EF839635F9A091D"
+					item: "pipez:gas_pipe"
+					type: "item"
+				}
+				{
+					id: "124C8DAE55EAB69F"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+				{
+					id: "3B6D4D84E58B8862"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DA6D312F162E68A"]
+			description: ["Transport items and fluids long distances and through dimensions!"]
+			id: "0DCAF4BD7DA81E0C"
+			rewards: [
+				{
+					id: "70404C7C30E9588E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "24D90CE593ED90B9"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "297F69F5C2C36177"
+					table_id: 7137779341485476375L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4F8BF4AE8A57B86F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "dimstorage:dimensional_chest"
+								}
+								{
+									Count: 1b
+									id: "enderstorage:ender_chest"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7196155A29D9C095"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "dimstorage:dimensional_tank"
+								}
+								{
+									Count: 1b
+									id: "enderstorage:ender_tank"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D58CB975454C708"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "dimstorage:dimensional_tablet"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "enderstorage:ender_pouch"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dim/Ender Storage"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["304C3DA255E8BEA1"]
+			description: ["Insert into Ender IO conduits to upgrade!"]
+			id: "599D753764477C22"
+			rewards: [
+				{
+					id: "6045F3FD7C1DA7FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "23F3A7DE947521CE"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "245B152EA4958AEB"
+					item: "enderio:basic_item_filter"
+					type: "item"
+				}
+				{
+					id: "01E9098EC8100B16"
+					item: "enderio:advanced_item_filter"
+					type: "item"
+				}
+				{
+					id: "7C3BCBC99956E7CD"
+					item: "enderio:extraction_speed_upgrade_1"
+					type: "item"
+				}
+				{
+					id: "6BB5AD7EA54EA287"
+					item: "enderio:extraction_speed_upgrade_2"
+					type: "item"
+				}
+				{
+					id: "2E52EB7FA55C145E"
+					item: "enderio:extraction_speed_upgrade_3"
+					type: "item"
+				}
+				{
+					id: "59C2A900F5620518"
+					item: "enderio:extraction_speed_upgrade_4"
+					type: "item"
+				}
+				{
+					id: "445FF5AE7350DE52"
+					item: "enderio:basic_fluid_filter"
+					type: "item"
+				}
+			]
+			title: "Conduit Upgrades"
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+	title: "Epsilon"
+}

@@ -1,0 +1,1 @@
+craftingTable.addShaped("dust_essence", <item:exdeorum:dust>, [[<item:mysticalagriculture:dirt_essence>, <item:mysticalagriculture:air_essence>], [<item:mysticalagriculture:air_essence>, <item:mysticalagriculture:dirt_essence>]]);

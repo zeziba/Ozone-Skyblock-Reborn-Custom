@@ -1,0 +1,14 @@
+craftingTable.remove(<item:pipez:item_pipe>);
+craftingTable.remove(<item:pipez:energy_pipe>);
+craftingTable.remove(<item:pipez:fluid_pipe>);
+craftingTable.remove(<item:pipez:gas_pipe>);
+craftingTable.remove(<item:cyclic:energy_pipe>);
+craftingTable.remove(<item:cyclic:item_pipe>);
+craftingTable.remove(<item:cyclic:fluid_pipe>);
+craftingTable.addShaped("item_pipe", <item:pipez:item_pipe> * 8, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:minecraft:dropper>, <item:enderio:item_conduit>, <item:minecraft:dropper>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
+craftingTable.addShaped("energy_pipe", <item:pipez:energy_pipe> * 8, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<tag:items:forge:storage_blocks/redstone>, <item:enderio:energy_conduit>, <tag:items:forge:storage_blocks/redstone>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
+craftingTable.addShaped("fluid_pipe", <item:pipez:fluid_pipe> * 8, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:minecraft:bucket>, <item:enderio:fluid_conduit>, <item:minecraft:bucket>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
+craftingTable.addShaped("gas_pipe", <item:pipez:gas_pipe> * 8, [[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>], [<item:mekanism:alloy_infused>, <item:enderio:conduit_binder>, <item:mekanism:alloy_infused>], [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
+craftingTable.addShaped("cyclic_energy_pipe", <item:cyclic:energy_pipe> * 4, [[<item:minecraft:iron_ingot>, <item:extendedcrafting:redstone_nugget>, <item:minecraft:iron_ingot>], [<item:extendedcrafting:redstone_nugget>, <item:minecraft:air>, <item:extendedcrafting:redstone_nugget>], [<item:minecraft:iron_ingot>, <item:extendedcrafting:redstone_nugget>, <item:minecraft:iron_ingot>]]);
+craftingTable.addShaped("cyclic_item_pipe", <item:cyclic:item_pipe> * 4, [[<item:minecraft:iron_ingot>, <tag:items:forge:nuggets/copper>, <item:minecraft:iron_ingot>], [<tag:items:forge:nuggets/copper>, <item:minecraft:air>, <tag:items:forge:nuggets/copper>], [<item:minecraft:iron_ingot>, <tag:items:forge:nuggets/copper>, <item:minecraft:iron_ingot>]]);
+craftingTable.addShaped("cyclic_fluid_pipe", <item:cyclic:fluid_pipe> * 4, [[<item:minecraft:iron_ingot>, <tag:items:forge:nuggets/gold>, <item:minecraft:iron_ingot>], [<tag:items:forge:nuggets/gold>, <item:minecraft:air>, <tag:items:forge:nuggets/gold>], [<item:minecraft:iron_ingot>, <tag:items:forge:nuggets/gold>, <item:minecraft:iron_ingot>]]);

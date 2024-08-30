@@ -1,0 +1,646 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chi"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "5286DBC66DBD878D"
+	images: [{
+		height: 2.0d
+		image: "ozone:textures/ftblogo.png"
+		rotation: 0.0d
+		width: 2.66d
+		x: 4.0d
+		y: -0.5d
+	}]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C5ABCB21F4AD687"]
+			description: ["Your starting point for Project E"]
+			id: "249E36927538C411"
+			rewards: [
+				{
+					id: "1AAC8BE492F2B50A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3F311CAB6733AF2E"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A8F935E2CED5AAC"
+					table_id: 455336730284347560L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1E4C8B9BCFFD9BA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			id: "694ED42FA3146EEA"
+			rewards: [
+				{
+					id: "2E178C3CB83E65FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4BBE8CE0D872A544"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "588DC5BEBDFD1CC0"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["694ED42FA3146EEA"]
+			id: "18EB92AEBC23CCC8"
+			rewards: [
+				{
+					id: "72CABE3005D64739"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4BEBD6FEB7D25728"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "056A7B5372B74147"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18EB92AEBC23CCC8"]
+			id: "7C7509848963F782"
+			rewards: [
+				{
+					id: "4BF6E19EAEA0CEA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0AC10834FC52360D"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FE2E632EAD7092F"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7C7509848963F782"]
+			id: "6BE7EA49DC2FA6D2"
+			rewards: [
+				{
+					id: "0E3DFBC903D19071"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5D22D79BA6E90BF5"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AB55AFA25283307"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5E2ED0885507EA57"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6BE7EA49DC2FA6D2"]
+			id: "2DA0BD387098BB09"
+			rewards: [
+				{
+					id: "6904A4641220A207"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "142C2B309D6C896F"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52FF7F77BA750B29"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1F5E5352E1FD3852"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			description: ["Store EMC and pull out learned items as you wish"]
+			id: "035D7EEE54AED6E1"
+			rewards: [
+				{
+					id: "6B15CDB24808E860"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "31168E32F1F51D9C"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54BFDD5F5053CDD6"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0180D7CA83F06A4F"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["035D7EEE54AED6E1"]
+			description: ["Handheld version of the transmutation table"]
+			id: "60331AC07AD1EBF5"
+			rewards: [
+				{
+					id: "726B5214434BEBEE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "00490C8863D2C1AE"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18F5CFE41E89591C"
+					table_id: 7137779341485476375L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "18580E78AA88873A"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C5ABCB21F4AD687"]
+			description: ["Large chest storage"]
+			id: "4E39823E3BB2A755"
+			rewards: [
+				{
+					id: "6C85340CA6D25474"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3E4008B922CAE231"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "238EBE3581747782"
+					table_id: 8237061732478284941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7C2276F9EF9C87F5"
+				item: "projecte:alchemical_chest"
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60665C65C798C959"]
+			description: ["Project E enables you to exchange items for equivalent items. This is baced on their EMC value. If an item has EMC, it can be found in its tooltip. Note: not all items have EMC. No EMC values have been added, removed, or modified from default."]
+			id: "6C5ABCB21F4AD687"
+			rewards: [
+				{
+					id: "44C0B14613AA58DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "24E2DD32C209C822"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C2FB2C3A78CB4D"
+					table_id: 4908174852979865794L
+					type: "loot"
+				}
+			]
+			subtitle: "Must complete \"Insanium Essence\" to unlock"
+			tasks: [
+				{
+					count: 64L
+					id: "6C524B8D81EDAA05"
+					item: "projecte:low_covalence_dust"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5C44C49CECAC74D2"
+					item: "projecte:medium_covalence_dust"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "006417CE13FCDB35"
+					item: "projecte:high_covalence_dust"
+					type: "item"
+				}
+			]
+			title: "Covalence Dust"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E39823E3BB2A755"]
+			description: ["Basically a huge bag of holding"]
+			id: "61E14F41995942B4"
+			rewards: [
+				{
+					id: "73EF212E8783E4D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "2FC088C845C5588C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B276A25AA2FCB7E"
+				item: "projecte:white_alchemical_bag"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			id: "7DFCD91873E59B94"
+			rewards: [
+				{
+					id: "216EF5A60CE95B63"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0B20A7D4B36DD55C"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B119460BA656F4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DFCD91873E59B94"]
+			id: "3FC496674B2D2961"
+			rewards: [
+				{
+					id: "49A9226AA63BAB1D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1AC1B8B7F9F06108"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AAE7AF15BE2D3C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FC496674B2D2961"]
+			id: "721A33A024056D36"
+			rewards: [
+				{
+					id: "0515D5A6DE79C20C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5920D868BAA4F20E"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40F035A490DA88C0"
+					table_id: 8263517383619382820L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BF3C5A16A2C8073"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_katar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["249E36927538C411"]
+			id: "558C2A6AAA467ED1"
+			rewards: [
+				{
+					id: "75FE3A2F5DEE371F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5502B6F8E4788598"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D1E57AD2096BBC4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_pick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["558C2A6AAA467ED1"]
+			id: "2213ACF90E286069"
+			rewards: [
+				{
+					id: "1B9AAFF4DF7FE659"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1FC80A9F01A5DD02"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F4DF6584AB29E5A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_pick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2213ACF90E286069"]
+			id: "721B545DEB60BCBD"
+			rewards: [
+				{
+					id: "55B2B461B070E84A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "275C81D320755B58"
+					item: "sc:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "202AE547491BC794"
+					table_id: 6934286827609696671L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1714D79ED8CFEBDA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_morning_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E39823E3BB2A755"]
+			description: ["Turn items into other items using EMC"]
+			id: "5B1AD78B32132907"
+			rewards: [
+				{
+					id: "639BE9D62156B8D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "382C8F6B95A1CB0B"
+					item: "sc:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "334E7EEDD450F20E"
+					table_id: 455336730284347560L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4526B7D6853EBA03"
+				item: "projecte:condenser_mk1"
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B1AD78B32132907"]
+			description: ["Upgraded version of the Energy Condenser"]
+			id: "2CD626E3DA24914E"
+			rewards: [
+				{
+					id: "069004019043AEA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5B4C5B90A54E7DA5"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5915A3BA9C686A0A"
+					table_id: 455336730284347560L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1ADA0936EE2F858B"
+				item: "projecte:condenser_mk2"
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60331AC07AD1EBF5"]
+			description: [
+				"Note: If you have started Draconic Evolution, the fusion crafting recipe is much more affordable!"
+				""
+				"Taken from: https://github.com/DonovanDMC/ProjectExpansion/wiki/Transmutation-Interface"
+				""
+				"The transmutation interface can enable your terminal from various storage mods (like AE2) to take advantage of your learned items. It can also import items from this system to keep it nice and tidy."
+				""
+				"Simply connect it to your system with whatever your mod uses (a storage bus for AE2) and watch it work."
+			]
+			id: "46DCFABCE6CA89BC"
+			rewards: [
+				{
+					id: "397D881E6E522521"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "58706375EE12FF54"
+					item: "sc:gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04CAAD5977E88859"
+					table_id: 1123139754206116106L
+					type: "random"
+				}
+			]
+			subtitle: "Ouch, that price hurts!"
+			tasks: [{
+				id: "2B07A9FF968B64B8"
+				item: "projectexpansion:transmutation_interface"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+	title: "Chi"
+}

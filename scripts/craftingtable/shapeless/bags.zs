@@ -1,0 +1,4 @@
+craftingTable.addShapeless("uncommon",<item:lootboxesplus:uncommon_loot_bag>, [<item:lootboxesplus:common_loot_bag>, <item:lootboxesplus:common_loot_bag>, <item:lootboxesplus:common_loot_bag>]);
+craftingTable.addShapeless("rare",<item:lootboxesplus:rare_loot_bag>, [<item:lootboxesplus:uncommon_loot_bag>, <item:lootboxesplus:uncommon_loot_bag>, <item:lootboxesplus:uncommon_loot_bag>]);
+craftingTable.addShapeless("epic",<item:lootboxesplus:epic_loot_bag>, [<item:lootboxesplus:rare_loot_bag>, <item:lootboxesplus:rare_loot_bag>, <item:lootboxesplus:rare_loot_bag>]);
+craftingTable.addShapeless("boss",<item:lootboxesplus:boss_loot_bag>, [<item:lootboxesplus:epic_loot_bag>, <item:lootboxesplus:epic_loot_bag>, <item:lootboxesplus:epic_loot_bag>]);
